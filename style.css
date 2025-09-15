@@ -1,0 +1,104 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: system-ui;
+}
+
+body{
+    background-color: #f6f8fa;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container{
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 3px 12px rgba(0, 0, 0, 0.2);
+    padding: 2rem;
+    width: 360px;
+}
+
+img{
+    width: 72px;
+    display: block;
+    margin: 0 auto 2rem auto;
+}
+
+h2{
+    margin: 2rem;
+    text-align: center;
+}
+
+.input-field{
+    margin-bottom: 1rem;
+}
+
+.input-field label{
+    color: #24292e;
+    margin-bottom: 0.5rem;
+    font-size: 0.875rem;
+    display: block;
+}
+
+.input-field input {
+    width: 100%;
+    padding: 0.75rem;
+    border: 1px solid #e1e4e8;
+    border-radius: 6px;
+    font-size: 0.875rem;
+}
+
+input:focus{
+    outline: none;
+    border-color: #0366d6;
+    box-shadow: 0 0 0 3px rgba(2, 33, 70, 0.3);
+}
+
+button{
+    font-weight: bold;
+    font-size: 1rem;
+    background-color:  #2ea44f;
+    border: none;
+    color: #fff;
+    border-radius: 6px;
+    width: 100%;
+    padding: 0.75rem;
+}
+
+button:hover{
+    background-color: #22863a;
+}
+
+.form-remember{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 1rem;
+    font-size: 0.875rem;
+}
+
+a{
+    color: #0366d6;
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+.divider {
+    height: 1px;
+    background-color: #e1e4e8;
+    margin: 2rem 0;
+}
+
+.new-to-github{
+    text-align: center;
+    font-size: 0.875rem;
+}
+
+
+
